@@ -110,7 +110,7 @@ Check the status of a sell request.
 Response - 
 ```json
 {
-  status: "REQUEST_PROCESSED" 
+  "status": "REQUEST_PROCESSED" 
 }
 ```
 

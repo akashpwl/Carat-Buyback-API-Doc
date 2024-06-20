@@ -106,6 +106,7 @@ Check the status of a sell request.
 
 **Query Parameters**:
 - `requestId` (type: `integer`, required: `true`)
+- `accountId` (type: `string`, required: `true`)
 
 Response - 
 ```json
@@ -127,6 +128,7 @@ Check the hostory of sell requests.
 **Method**: `GET`
 
 **Query Parameters**:
+- `accountId` (type: `string`, required: `true`)
 - `startDate` (type: `string`, required: `false`, format: `ISO`)
 - `endDate` (type: `string`, required: `false`,  format: `ISO`)
 
